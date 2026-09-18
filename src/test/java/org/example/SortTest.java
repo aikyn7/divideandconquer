@@ -55,6 +55,7 @@ public class SortTest {
 
     @Test
     public void testEdgeCases() {
+
         int[] empty = {};
         MergeSort.sort(empty, new Metrics());
         QuickSort.sort(empty, new Metrics());
